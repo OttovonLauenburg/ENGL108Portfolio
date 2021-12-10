@@ -1,0 +1,162 @@
+body{
+	background-color: #a9d9ff;
+	font-family:"Times New Roman", Times, serif;
+}
+
+
+
+#home-img{
+	width: 1270px;
+	height: 580px;
+	background-image: url("homeimg.png");
+}
+
+/*arrow style*/
+.arrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgba(0, 0, 0, 0);
+  height: 100px;
+}
+
+.container:hover {
+	background:rgba(0, 0, 0, 0.5);
+}
+
+/*arrow style end*/
+
+
+main{
+	margin-bottom: 5%;
+}
+
+#content {
+	display:flex;
+	flex-flow: row wrap;
+}
+.content-link{
+	margin: 2%;
+}
+.content-div {
+	width: 330px;
+	height: 200px;
+	background-color: red;
+	border-radius: 15%;
+}
+
+#content-div1 {
+	background-image: url("goal1link.png");
+}
+
+
+#content-div2 {
+	background-image: url("goal2link.png");
+}
+
+#content-div3 {
+	background-image: url("goal3link.png");
+}
+
+#content-div4 {
+	background-image: url("goal4link.png");
+}
+
+#content-div5 {
+	background-image: url("goal5link.png");
+}
+
+.hover-text{
+	font-size: 35px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 20%;
+	visibility: hidden;
+}
+
+.content-div:hover {
+	opacity: 0.5;
+}
+
+.content-div:hover .hover-text{
+	visibility: visible;
+}
+
+h1{
+	margin-top: 10%;
+	text-align: center;
+}
+
+.nav-class {
+	width: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color:white;
+}
+
+#unit-div2{
+	width: 1270px;
+	height: 570px;
+}
+
+.accordion{
+	margin-top: 5%;
+	margin-bottom:5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.collapse {
+	padding-left:5%;
+	padding-right: 5%;
+	
+}
+.artifact{
+	display: block;
+	width: 100%;
+}
+
+iframe {
+	width: 100%;
+	height: 600%;
+}
+
+.btn{
+	margin-left: 10%;
+}
+.collapse{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 100%;
+}
+
+img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+}
+
+.unit-reflection{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60%;
+}
