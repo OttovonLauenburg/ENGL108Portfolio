@@ -17,7 +17,7 @@
 	<div class="nav-class" id="goal5-nav">
 		<ul class="nav nav-pills">
 			<li class="nav-item">
-				<a class="nav-link" href="index.html">Home</a>
+				<a class="nav-link" href="index.html">home</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="goal1.html">Rhetorical Awareness</a>
